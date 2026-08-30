@@ -1,0 +1,32 @@
+Copyright (C) 2026 Flashy Labs. All rights reserved.
+
+The Personality AI property.
+
+No licence is granted. This is a statement of that, not a change to it —
+code with no LICENSE file is already all rights reserved, and the difference
+between a deliberate reservation and an oversight is not something a reader
+can infer from an empty directory. A diligence team, a would-be contributor
+and a future acquirer all need to know which one this is.
+
+You may not copy, modify, distribute, sublicense or make derivative works of
+this repository, in whole or in part, without written permission from the
+copyright holder.
+
+WHAT IS OPEN, AND WHERE
+───────────────────────
+Several packages this estate publishes are deliberately permissive, so that
+anyone can embed them without asking:
+
+  @flashyos/aao, @flashyos/directory, @flashyos/countersign,
+  @flashyos/frontdoor, @flashyos/verify, @flashyos/backlog,
+  @flashyos/shiplog, @flashylabs/ledger        Apache-2.0
+
+If you are here for a format or a verifier rather than for this property,
+those are what you want, and they carry no obligation to us.
+
+THIS IS THE REVERSIBLE CHOICE
+─────────────────────────────
+A repository can be opened later. A grant already made cannot be withdrawn
+from the copies it has already reached. Where the decision had not been
+taken deliberately, this file records the position that keeps the decision
+available.
