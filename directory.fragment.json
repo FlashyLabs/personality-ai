@@ -1,0 +1,80 @@
+{
+  "contract": "directory/1",
+  "generated": "2026-09-29",
+  "org": "org/personality-ai",
+  "nodes": [
+    {
+      "id": "org/personality-ai",
+      "kind": "org",
+      "name": "Personality Ai"
+    },
+    {
+      "id": "person/michael",
+      "kind": "person",
+      "name": "Michael Gord"
+    },
+    {
+      "id": "agent/personality-ai-editor",
+      "kind": "agent",
+      "name": "editor",
+      "for": "org/personality-ai"
+    },
+    {
+      "id": "agent/personality-ai-author",
+      "kind": "agent",
+      "name": "author",
+      "for": "org/personality-ai"
+    },
+    {
+      "id": "agent/personality-ai-engineering",
+      "kind": "agent",
+      "name": "engineering",
+      "for": "org/personality-ai"
+    },
+    {
+      "id": "agent/personality-ai-release",
+      "kind": "agent",
+      "name": "release",
+      "for": "org/personality-ai"
+    },
+    {
+      "id": "agent/personality-ai-conformance",
+      "kind": "agent",
+      "name": "conformance",
+      "for": "org/personality-ai"
+    }
+  ],
+  "edges": [
+    {
+      "from": "org/personality-ai",
+      "rel": "staffs",
+      "to": "agent/personality-ai-editor",
+      "by": "person/michael"
+    },
+    {
+      "from": "org/personality-ai",
+      "rel": "staffs",
+      "to": "agent/personality-ai-author",
+      "by": "person/michael"
+    },
+    {
+      "from": "org/personality-ai",
+      "rel": "staffs",
+      "to": "agent/personality-ai-engineering",
+      "by": "person/michael"
+    },
+    {
+      "from": "org/personality-ai",
+      "rel": "staffs",
+      "to": "agent/personality-ai-release",
+      "by": "person/michael"
+    },
+    {
+      "from": "org/personality-ai",
+      "rel": "staffs",
+      "to": "agent/personality-ai-conformance",
+      "by": "person/michael"
+    }
+  ],
+  "x-note": "Five agents, one per charter role. Generated from flashyos.roles.json; a live org is provisioned from the charter with provision-org-from-charter."
+}

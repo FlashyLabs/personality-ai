@@ -1,0 +1,95 @@
+{
+  "x-generated": "estate-charter/1; 2026-09-29; every role is one standing job, and five roles are five agents",
+  "aao": "0.1",
+  "name": "Personality Ai",
+  "slug": "personality-ai",
+  "description": "Personality Ai — a site on the FlashyOS mesh — a generated property whose every claim is tied to a surface a stranger can reach. AAO expands to Agentic Autonomous Organization.",
+  "accountableTo": "michael@gda.capital",
+  "escalation": "editor",
+  "repositories": [
+    {
+      "name": "personality-ai",
+      "url": "github.com/FlashyLabs/personality-ai",
+      "default": true,
+      "holds": [
+        "content",
+        "site"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "name": "editor",
+      "family": "product",
+      "purpose": "Decides what the site says and keeps every claim tied to a surface a stranger can reach — no unverified audience claim, no number a test cannot assert.",
+      "measure": "Pages with a named owner, as a share of pages",
+      "capabilities": [
+        "commission-copy",
+        "approve-copy"
+      ],
+      "humanApprovalAtOrAbove": "MEDIUM",
+      "x-capability": [
+        "content-exchange"
+      ],
+      "worksIn": [
+        "personality-ai"
+      ]
+    },
+    {
+      "name": "author",
+      "family": "support",
+      "purpose": "Writes and updates the content in the estate lexicon, and keeps a page current rather than letting it drift from what the product now does.",
+      "measure": "Pages reviewed in the last quarter, as a share of pages",
+      "capabilities": [
+        "write-content",
+        "update-content"
+      ],
+      "humanApprovalAtOrAbove": "MEDIUM",
+      "worksIn": [
+        "personality-ai"
+      ]
+    },
+    {
+      "name": "engineering",
+      "family": "engineering",
+      "purpose": "Builds and maintains the site generator, and keeps the served output derived from source rather than hand-edited.",
+      "measure": "Builds that pass, as a share of builds",
+      "capabilities": [
+        "build-site",
+        "merge-changes"
+      ],
+      "humanApprovalAtOrAbove": "HIGH",
+      "worksIn": [
+        "personality-ai"
+      ]
+    },
+    {
+      "name": "release",
+      "family": "operations",
+      "purpose": "Deploys the site and verifies the change is actually live at the domain, because committed is not served until a fetch settles it.",
+      "measure": "Deploys verified live, as a share of deploys",
+      "capabilities": [
+        "deploy-site",
+        "verify-live"
+      ],
+      "humanApprovalAtOrAbove": "MEDIUM",
+      "worksIn": [
+        "personality-ai"
+      ]
+    },
+    {
+      "name": "conformance",
+      "family": "risk",
+      "purpose": "Runs the content, link and lexicon checks, and refuses a build that links a surface which does not exist.",
+      "measure": "Link checks passing, as a share of runs",
+      "capabilities": [
+        "check-links",
+        "check-content"
+      ],
+      "humanApprovalAtOrAbove": "LOW",
+      "worksIn": [
+        "personality-ai"
+      ]
+    }
+  ]
+}
